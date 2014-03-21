@@ -1,0 +1,1 @@
+cmd_/home/hcyang/work/memory_dump/memory_dump.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.11.0-18-generic/scripts/module-common.lds --build-id  -o /home/hcyang/work/memory_dump/memory_dump.ko /home/hcyang/work/memory_dump/memory_dump.o /home/hcyang/work/memory_dump/memory_dump.mod.o
